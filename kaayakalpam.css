@@ -1,0 +1,621 @@
+/* navbar */
+.navbar{
+    background: #FFF1E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav-link{
+    color: black;
+    font-family: Poppins;
+    font-size: 21px;
+    
+  
+}
+
+
+.nav-item{
+    padding-left: 25px;
+}
+
+
+
+
+/* Body Styles */
+body {
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Background Image Layer */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF1E5;
+    /* background-image: url('Rectangle\ 2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; */
+    z-index: -1;
+}
+
+/* Content Container */
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1350px;
+    padding: 50px;
+}
+
+/* Text Content */
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    font-family: Poppins;
+}
+
+ .content h1 span {
+    color: #A0522D;
+}
+
+.content p {
+ font-family: Poppins;
+ font-size: 25px;
+ padding-top: 10px;
+}
+/* Image Collage */
+.image-container {
+    position: relative;
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+.collage {
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+
+/* Buttons */
+.more-info {
+    background: #A0522D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.aboutcontent h1{
+   
+    font-weight: 700;
+    font-size: 85px;
+    color: #A0522D;
+    font-family: Poppins;
+}
+.aboutcontent p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 19px;
+
+color:  #000
+}
+body{
+    background-color: #FFF1E5;
+}
+
+
+
+
+.offerings h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: Poppins;
+   
+
+}
+
+.offerings p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+    font-family: Poppins;
+}
+
+/* Offerings Grid */
+.offerings-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+/* Offering Card */
+.offering-card {
+    background: white;
+    padding: 20px;
+  
+   
+
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+    min-height: 100%;
+}
+
+.offering-card img {
+   
+   object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.offering-card h3 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    font-family: Poppins;
+}
+
+.offering-card p {
+    font-size: 17px;
+    color: black;
+    font-family: Poppins;
+}
+
+/* Hover Effect */
+.offering-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Offerings Grid */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.products h2{
+    font-family: Poppins;
+    font-size: 28px;
+
+}
+.products p{
+    font-size: 20px;
+    font-family: Poppins;
+    color: #000;
+
+}
+
+/* Offering Card */
+
+
+
+/* Hover Effect */
+.offering-card:hover {
+    transform: translateY(-5px);
+}
+/* form */
+/* footer */
+.bottom-footer {
+   padding-top: 20px;
+    
+   
+    position: fixed;
+    bottom: 0px;
+   
+    text-align: center;
+  
+}
+
+.footer-container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 700px;
+    padding: 10px;
+}
+
+.footer-logo h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
+.footer-social i {
+    width: 50px;
+    height: 24px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+   
+}
+
+.footer-social a:hover img {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.footer-bottom p{
+    color: black;
+    font-family: Poppins;
+    font-size: 25px;
+}
+.page-2{
+    margin-bottom: 90px;
+}
+/* benifits */
+.benefits-testimonials {
+    text-align: center;
+ 
+     /* Light, calming background */
+}
+.benefits-testimonials h2{
+    font-family: Poppins;
+    font-size: 30px
+
+}
+.benefits-container, .testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit-card, .testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+.benefit-card, .testimonial-card-1 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.benefit-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: Poppins;
+    color: #000;
+}
+
+.benefit-card p, .testimonial-card p {
+    font-size: 18px;
+    
+    font-family: Poppins;
+    color: #000;
+}
+.testimonials-container{
+    margin-bottom: 80px;
+}
+.benefit-card p, .testimonial-card-1 p {
+    font-size: 18px;
+    
+    font-family: Poppins;
+    color: #000;
+}
+
+.testimonial-card {
+    
+    max-width: 350px;
+}
+.testimonial-card-1{
+
+    max-width: 350px;
+}
+
+
+.testimonial-card-1 h4 {
+    margin-top: 50px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.testimonial-card h4 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+/* Hover Effect */
+.benefit-card:hover,.testimonial-card-1:hover,.testimonial-card:hover{
+    transform: translateY(-5px);
+}
+/* form */
+/* Contact Form Styles */
+.contact-form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    background: white;
+    padding: 20px;
+/* responsive design */
+/* General Mobile-Friendly Adjustments */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+    .offering-card {
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Adjust Navbar */
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    /* Reduce Padding */
+    .offering-card {
+        max-width: 250px;
+        padding: 15px;
+    }
+}
+
+/* Tablets & Small Screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .image-container img {
+        max-width: 80%;
+    }
+
+    .footer-container-fluid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-top: 10px;
+    }
+
+    .offering-card {
+        max-width: 100%;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 576px) {
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .more-info {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .image-container img {
+        max-width: 90%;
+    }
+
+    .offering-card {
+        max-width: 100%;
+    }
+
+    .bottom-footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+/* aboutpage */
+@media (max-width: 992px) {
+   .img-2{
+    margin-top: 152px;
+   }
+}
+@media (max-width: 768px) {
+    .aboutcontent{
+        margin-left: -61px;
+    }
+    .img-2{
+        margin-top: 86px;
+       }
+    .aboutcontent h1 {
+        font-size: 28px;
+    }
+
+    .aboutcontent p {
+        font-size: 16px;
+    }
+
+    .img-2 img {
+        max-width: 90%;
+    }
+}
+
+/* Small Mobile Screens (Max width: 480px) */
+@media (max-width: 480px) {
+    .img-2{
+        margin-top: 230px;
+       
+       }
+    .aboutcontent h1 {
+        font-size: 24px;
+    }
+
+    .aboutcontent p {
+        font-size: 14px;
+    }
+
+    .img-2 img {
+        max-width: 100%;
+    }
+}
+/* ouroffering */
+/* Tablets (Max width: 991px) */
+@media (max-width: 991px) {
+    .offering-card {
+        width: 45%;
+    }
+}
+
+/* Mobile Devices (Max width: 768px) */
+@media (max-width: 768px) {
+    .products h2{
+        text-align: center;
+
+    }
+    .products p{
+        text-align: center;
+
+    }
+    .offerings h2{
+        text-align: center;
+    }
+    .offerings p{
+        text-align: center;
+    }
+    .offering-card {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Small Mobile Screens (Max width: 480px) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .offering-card {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .offering-card img {
+        height: 200px;
+    }
+}
+/* lastpage */
+@media (max-width: 991px) {
+    .benefit-card, .testimonial-card, .testimonial-card-1 {
+        width: 45%;
+    }
+}
+
+/* Mobile Devices (Max width: 768px) */
+@media (max-width: 991px) {
+    .benefit-card, .testimonial-card, .testimonial-card-1 {
+        width: 45%;
+    }
+}
+
+/* Mobile Devices (Max width: 768px) */
+@media (max-width: 768px) {
+    .benefit-card, .testimonial-card, .testimonial-card-1 {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Small Mobile Screens (Max width: 480px) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .benefit-card, .testimonial-card, .testimonial-card-1 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .benefit-card img {
+        height: 200px;
+    }
+}
